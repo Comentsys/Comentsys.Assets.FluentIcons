@@ -7,10 +7,11 @@
 		<Title>Asset Resource for Regular Fluent UI System Icons</Title>
 		<Authors>Comentsys, Microsoft</Authors>
 		<Company>Comentsys</Company>
-		<Version>1.0.0</Version>
+		<Version>1.1.0</Version>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<PackageReleaseNotes>
 			1.0.0 - Initial Release
+			1.1.0 - Update RegularFluentIcons with GetPathMarkup Method
 		</PackageReleaseNotes>
 		<PackageProjectUrl>https://github.com/Comentsys/Comentsys.Assets.FluentIcons</PackageProjectUrl>
 		<Description>Asset Resource for Regular Fluent UI System Icons</Description>
