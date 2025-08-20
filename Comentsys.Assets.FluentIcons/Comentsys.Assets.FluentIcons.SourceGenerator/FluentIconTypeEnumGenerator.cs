@@ -44,6 +44,10 @@ public class FluentIconTypeEnumGenerator : ISourceGenerator
         builder.AppendLine("/// </summary>");
         builder.AppendLine("public enum FluentIconType");
         builder.AppendLine("{");
+        builder.AppendLine("\t/// <summary>");
+        builder.AppendLine($"\t/// None");
+        builder.AppendLine("\t/// </summary>");
+        builder.AppendLine($"\tNone,");
         foreach (var svgFile in svgFiles)
         {
             builder.AppendLine("\t/// <summary>");
